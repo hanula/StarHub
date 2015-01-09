@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>StarHub</title>
+    <meta name="description" content="GitHub star browser"/>
+    <meta name="author" content="Sebastian Hanula - http://www.hanula.com"/>
+
+    <script src="js/react-0.12.2.js"></script>
+    <script src="js/JSXTransformer-0.12.2.js"></script>
+    <script src="js/jquery-1.10.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/stars.jsx" type="text/jsx"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<style>
+
+body {
+  background-color: #eee;
+}
+
+.repo-list {
+    margin: 1em;
+}
+
+.repo {
+    background-color: #D0F8D0;
+    background-color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+}
+.repo h5 a { text-wrap: wrap}
+.repo li {font-size: 0.9em;}
+.repo b { font-size: 1.5em;}
+.repo-card { min-height: 225px; }
+
+.navbar { margin-top: 0.5em;}
+.logo a { color: inherit; }
+hr { margin-top: 0;}
+.filters a {
+    cursor: pointer;
+}
+
+.filter .remove {
+    display: none;
+    float: right;
+    padding: 0.1em 0.5em;
+    border: 1px solid #eee;
+}
+.filter a:hover {
+    background-color: #f6f6f6 !important;
+}
+
+.filter a:hover .remove {
+    display: block;
+}
+
+.main-content {
+    min-height: 300px;
+}
+
+hr {margin-top: 1em; border-color: #fff;}
+
+.login-form {
+    margin: 4em auto;
+    max-width: 400px;
+}
+
+.login-form .hint {
+    text-align: center;
+    color: #aaa;
+}
+</style>
+
+</head>
+<body>
+
+<div id="app"></div>
+
+<footer class="footer">
+    <div class="container text-center">
+        <hr>
+        <p>StarHub - fast access to your GitHub favorites</p>
+        <ul class="list-inline">
+            <li>
+                <a href="https://github.com/hanula/StarHub">GitHub source</a>
+            </li>
+            <li>
+                <a href="http://www.hanula.com/">Hire me</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
